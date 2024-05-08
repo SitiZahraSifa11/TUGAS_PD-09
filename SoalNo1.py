@@ -8,10 +8,17 @@
 
 
 arr = [8,3,12,4,7,2]
-arr.sort(reverse=True)
-arr[4]=0
-arr[5]=0
-print ("Output : ",arr)
+
+hasil=[]
+for n in arr:
+    if n < 5:
+        hasil.append(0)
+    else:
+        hasil.append(n)
+
+hasil.sort(reverse=True)
+print("Output:", hasil)
+
 
 
 
