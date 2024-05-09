@@ -5,7 +5,7 @@
 # Input: kata = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
 # Output: ['anggur', 'durian', 'jeruk', 'mangga', 'pisang']
 
-kkata_int = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
+kata_int = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
 output=[]
 for kata in kata_int:  
     if len(kata) >= 5:
