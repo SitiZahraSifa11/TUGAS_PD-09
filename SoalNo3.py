@@ -5,7 +5,10 @@
 # Input: kata = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
 # Output: ['anggur', 'durian', 'jeruk', 'mangga', 'pisang']
 
-kata_int = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
-kata_int.sort()
-kata_int.pop(1)
-print("Output : ", kata_int)
+kkata_int = ["apel", "jeruk", "mangga", "pisang", "anggur", "durian"]
+output=[]
+for kata in kata_int:  
+    if len(kata) >= 5:
+        output.append(kata)
+output.sort()
+print("Output : ",output)
