@@ -1,3 +1,4 @@
+import array as arr
 # No.2
 # Budi memiliki sebuah list yang berisi nilai-nilai angka. Dia ingin menghapus 
 # semua nilai yang merupakan bilangan ganjil dan mengurutkan sisa nilai tersebut 
@@ -5,12 +6,12 @@
 # Input: [7, 4, 9, 2, 5, 1]
 # Output: [2, 4]
 
-arr=[7, 4, 9, 2, 5, 1]
+arr=('i',[7, 4, 9, 2, 5, 1])
 filter =[]
 
-for n in arr:
+for n in arr[1]:
     if n % 2 == 0:
         filter.append(n)
 filter.sort()
-print("Input : ",arr)
+
 print("Output : ",filter)
