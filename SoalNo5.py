@@ -1,3 +1,4 @@
+import array as arr
 # No.5
 # Dina memiliki sebuah list yang berisi nilai-nilai angka. Dia ingin menghapus 
 # semua nilai yang kurang dari 10 dan lebih dari 100, dan mengurutkan sisa nilai 
@@ -6,9 +7,9 @@
 # Output: [20, 30]
 
 
-arr=[105, 20, 8, 150, 30, 5, 200]
+arr=('i',[105, 20, 8, 150, 30, 5, 200])
 hasil=[]
-for n in arr:
+for n in arr[1]:
     if 10 <= n <= 100:
        hasil.append(n)
 hasil.sort()      
