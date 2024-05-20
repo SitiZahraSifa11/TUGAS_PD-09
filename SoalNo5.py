@@ -7,9 +7,9 @@ import array as arr
 # Output: [20, 30]
 
 
-arr=('i',[105, 20, 8, 150, 30, 5, 200])
+arr=arr.array('i',[105, 20, 8, 150, 30, 5, 200])
 hasil=[]
-for n in arr[1]:
+for n in arr:
     if 10 <= n <= 100:
        hasil.append(n)
 hasil.sort()      
