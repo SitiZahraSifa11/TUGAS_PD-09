@@ -6,10 +6,10 @@ import array as arr
 # Input: [7, 4, 9, 2, 5, 1]
 # Output: [2, 4]
 
-arr=('i',[7, 4, 9, 2, 5, 1])
+arr=arr.array('i',[7, 4, 9, 2, 5, 1])
 filter =[]
 
-for n in arr[1]:
+for n in arr:
     if n % 2 == 0:
         filter.append(n)
 filter.sort()
