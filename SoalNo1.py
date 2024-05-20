@@ -8,10 +8,10 @@ import array as arr
 # Output: [12, 8, 7, 0, 0, 0]
 
 
-arr = ('i',[8,3,12,4,7,2])
+arr = arr.array('i',[8,3,12,4,7,2])
 
 hasil=[]
-for n in arr[1]:
+for n in arr:
     if n < 5:
         hasil.append(0)
     else:
