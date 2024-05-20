@@ -6,11 +6,11 @@ import array as arr
 # Input: ["apel", "jeruk", "mangga"], ["apel", "anggur", "nanas"]
 # Output: ['anggur', 'apel', 'jeruk', 'mangga', 'nanas']
 
-Data1 = ('u',["apel", "jeruk", "mangga"])
-Data2 = ('u',["apel", "anggur", "nanas"])
+data1 = ["apel", "jeruk", "mangga"]
+data2 = ["apel", "anggur", "nanas"]
 
-buah=Data1[1].copy()
-buah.extend(Data2[1])
+buah=data1.copy()
+buah.extend(data2)
 saring= set(buah)
 buahDewi=sorted(saring)
 print("Buah Dewi sekarang = ",buahDewi)
